@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * main - Entery point 
+ * main - Entery point
  *Des: 'print -putchar'
  *Return: always 0 (sucess)
  */
