@@ -1,11 +1,11 @@
-#include <stdio.h>
 #include "main.h"
-
-/*
-* main - prints the largest of 3 integers.
-* Return: 0
+/**
+*  * main - Entry point
+*   *
+*    * Description: This function prints the largest of three integers
+*     *
+*      * Return: Always 0 (Success)
 */
-
 int main(void)
 {
 int a, b, c;
