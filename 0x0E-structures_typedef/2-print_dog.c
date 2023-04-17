@@ -29,7 +29,7 @@ if (d->owner == NULL)
 else
 printf("Owner: %s\n", d->owner);
 }
-else 
+else
 return;
 
 }
