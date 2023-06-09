@@ -3,30 +3,27 @@
 #include <stdlib.h>
 
 /**
- *main -  multiplies two numbers.
+ * main - multiplies two numbers.
+ * @argc: arguments count
+ * @argv: arguments vektor
+ * Return:If the program does not receive two arguments return 1
  *
- * @argc: argument counter
- * @argv: argument vektor
- * Return: 1 for error
  */
 int main(int argc, char *argv[])
 {
-	int sum, i;
+	int Total;
 
-	sum = 0;
-
-	if (argc > 2)
+	if (argc < 3)
 	{
-	for (i = 1; i < argc; i++)
-	{
-		sum += atoi(argv[i]);
-	}
-		printf("%d\n", sum);
+		printf("Error\n");
+		return (1);
 	}
 	else
 	{
-	printf("Error\n");
-	return (1);
+		Total = atoi(argv[1]) * atoi(argv[2]);
+		printf("%d\n", Total);
 	}
 	return (0);
+
 }
+
