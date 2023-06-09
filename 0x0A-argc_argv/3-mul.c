@@ -3,18 +3,18 @@
 #include <stdlib.h>
 
 /**
+ *main -  multiplies two numbers.
  *
- *
- *
- *
- *
+ * @argc: argument counter
+ * @argv: argument vektor
+ * Return: 1 for error
  */
 int main(int argc, char *argv[])
 {
 	int sum, i;
 
 	sum = 0;
-	
+
 	if (argc > 1)
 	{
 	for (i = 1; i < argc; i++)
@@ -27,5 +27,5 @@ int main(int argc, char *argv[])
 	{
 	printf("Error\n");
 	return (1);
-	}	
+	}
 }
