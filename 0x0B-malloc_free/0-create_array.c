@@ -2,13 +2,11 @@
 #include <stdlib.h>
 
 /**
- * create_array - function that creates an array of chars, and initializes it with a specific char.
+ * create_array - creates an array of characterss
+ * @size: size of array
+ * @c: array elemets
  *
- *@size: size of string
- *@c: char 
- *@string: the actual string
- *@i: increment for i 
- *@Return: return NULL if size is 0 or string is null 
+ * Return: On success a pointer otherwise NULL
  */
 char *create_array(unsigned int size, char c)
 {
@@ -20,8 +18,8 @@ char *create_array(unsigned int size, char c)
 	{
 		return (NULL);
 	}
-	
+
 	for (i = 0; i < size; i++)
 	string[i] = c;
-	return (string);	
+	return (string);
 }
